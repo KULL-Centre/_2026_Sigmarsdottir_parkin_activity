@@ -1,5 +1,5 @@
 # _2026_Sigmarsdottir_parkin_activity
-Scripts and output from "A mutational map of Parkin missense variant activity" by Erna Sól Sigmarsdóttir, Vasileios Voutsinos, Kristoffer Enøe Johansson, Isa Kristin Henrichs, Alissa Buhrmann, Kresten Lindorff-Larsen1 and Rasmus Hartmann-Petersen
+Scripts and output from "A mutational map of Parkin missense variant activity" by Erna Sól Sigmarsdóttir, Vasileios Voutsinos, Kristoffer Enøe Johansson, Isa Kristin Henrichs, Alissa Buhrmann, Kresten Lindorff-Larsen and Rasmus Hartmann-Petersen
 
 [Preprint (soon to be available)](https://doi.org/)
 
