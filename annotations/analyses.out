@@ -1,0 +1,284 @@
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
+
+Call:
+lm(formula = peve ~ ao + dmso + abun, data = prkn)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.19860 -0.19788  0.05324  0.21957  1.06560 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -4.564743   0.092593 -49.299  < 2e-16 ***
+ao           0.459314   0.009772  47.003  < 2e-16 ***
+dmso        -0.189561   0.032254  -5.877 4.33e-09 ***
+abun         0.790056   0.013415  58.893  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3008 on 8535 degrees of freedom
+  (1227 observations deleted due to missingness)
+Multiple R-squared:  0.5623,	Adjusted R-squared:  0.5622 
+F-statistic:  3655 on 3 and 8535 DF,  p-value: < 2.2e-16
+
+[1] "Opt. popEVE gives DMSO factor -0.41, Abun. factor 1.72"
+
+Call:
+lm(formula = peve_nons ~ prkn$ao + prkn$dmso + prkn$abun)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.55053 -0.20740  0.04684  0.22328  1.33271 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -3.165010   0.074823  -42.30   <2e-16 ***
+prkn$ao      0.463750   0.009736   47.63   <2e-16 ***
+prkn$dmso   -0.710415   0.025403  -27.97   <2e-16 ***
+prkn$abun    0.676318   0.012693   53.28   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3084 on 8997 degrees of freedom
+  (765 observations deleted due to missingness)
+Multiple R-squared:  0.6247,	Adjusted R-squared:  0.6245 
+F-statistic:  4991 on 3 and 8997 DF,  p-value: < 2.2e-16
+
+[1] "Opt. popEVE incl nons. wo. abun. gives DMSO factor -3.95 and pearson 0.71"
+
+Call:
+lm(formula = peve_nons ~ ao + dmso, data = prkn)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.47216 -0.23804  0.02974  0.26212  2.00733 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.06010    0.05045   1.191    0.234    
+ao           0.44357    0.01116  39.752   <2e-16 ***
+dmso        -1.75332    0.01857 -94.405   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3537 on 8998 degrees of freedom
+  (765 observations deleted due to missingness)
+Multiple R-squared:  0.5062,	Adjusted R-squared:  0.5061 
+F-statistic:  4612 on 2 and 8998 DF,  p-value: < 2.2e-16
+
+quartz 
+     2 
+
+Call:
+lm(formula = am_score ~ ao + dmso + abun, data = prkn)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.94375 -0.18816 -0.04299  0.16828  0.90242 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.631599   0.072632  22.464   <2e-16 ***
+ao          -0.287241   0.007719 -37.211   <2e-16 ***
+dmso         0.027713   0.025289   1.096    0.273    
+abun        -0.626615   0.010503 -59.661   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2381 on 8746 degrees of freedom
+  (1016 observations deleted due to missingness)
+Multiple R-squared:  0.5239,	Adjusted R-squared:  0.5237 
+F-statistic:  3208 on 3 and 8746 DF,  p-value: < 2.2e-16
+
+[1] "Opt. AlphaM. gives DMSO factor -0.10, Abun. factor 2.18"
+
+Call:
+lm(formula = am_nons ~ prkn$ao + prkn$dmso + prkn$abun)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.94841 -0.18578 -0.03388  0.15554  0.89433 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.316364   0.056491  23.302  < 2e-16 ***
+prkn$ao     -0.276531   0.007376 -37.488  < 2e-16 ***
+prkn$dmso    0.130831   0.019172   6.824 9.41e-12 ***
+prkn$abun   -0.594137   0.009546 -62.240  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2341 on 9208 degrees of freedom
+  (554 observations deleted due to missingness)
+Multiple R-squared:  0.556,	Adjusted R-squared:  0.5558 
+F-statistic:  3843 on 3 and 9208 DF,  p-value: < 2.2e-16
+
+[1] "Opt. AlphaM incl nons. wo. abun. gives DMSO factor -4.05"
+
+Call:
+lm(formula = am_nons ~ ao + dmso, data = prkn)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.2431 -0.2359 -0.0268  0.2346  0.9439 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.528333   0.039569  -38.62   <2e-16 ***
+ao          -0.259554   0.008786  -29.54   <2e-16 ***
+dmso         1.051286   0.014541   72.30   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2791 on 9209 degrees of freedom
+  (554 observations deleted due to missingness)
+Multiple R-squared:  0.3692,	Adjusted R-squared:  0.3691 
+F-statistic:  2695 on 2 and 9209 DF,  p-value: < 2.2e-16
+
+quartz 
+     2 
+
+Call:
+lm(formula = peve_nons ~ prkn$activity + prkn$abun)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.54887 -0.20621  0.04407  0.22411  1.36516 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   -4.170022   0.007433 -561.04   <2e-16 ***
+prkn$activity  0.489077   0.009332   52.41   <2e-16 ***
+prkn$abun      0.642251   0.009065   70.85   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3086 on 8998 degrees of freedom
+  (765 observations deleted due to missingness)
+Multiple R-squared:  0.624,	Adjusted R-squared:  0.624 
+F-statistic:  7468 on 2 and 8998 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = am_nons ~ prkn$activity + prkn$abun)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.90671 -0.18515 -0.04003  0.15067  0.90859 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    1.049650   0.005709  183.88   <2e-16 ***
+prkn$activity -0.238275   0.007158  -33.29   <2e-16 ***
+prkn$abun     -0.484464   0.006923  -69.98   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2375 on 9209 degrees of freedom
+  (554 observations deleted due to missingness)
+Multiple R-squared:  0.543,	Adjusted R-squared:  0.5429 
+F-statistic:  5470 on 2 and 9209 DF,  p-value: < 2.2e-16
+
+quartz 
+     2 
+quartz 
+     2 
+
+Intermediate          LOF          WTL  possibleLOF  possibleWTL 
+        1357          876         3769          622         3008 
+[1] "Single variant percents of 8750"
+
+Intermediate          LOF          WTL  possibleLOF  possibleWTL 
+   15.051429     7.017143    40.320000     5.097143    32.514286 
+
+Intermediate          LOF          WTL  possibleLOF  possibleWTL 
+         312         1069         4140          983         3128 
+[1] "Single variant percents of 8750"
+
+Intermediate          LOF          WTL  possibleLOF  possibleWTL 
+    3.417143     9.520000    45.028571     8.777143    33.257143 
+[1] "Clinvar lables"
+
+    lof wt-like 
+     18      13 
+[1] "AUC of AlphaMissense on 31 of 31 labels: 0.93"
+[1] "AUC of popEVE on 29 of 31 labels: 0.94"
+[1] "AUC of Abundance on 29 of 31 labels: 0.74"
+[1] "AUC of AO-DMSO on 29 of 31 labels: 0.98"
+[1] "AUC of AO on 29 of 31 labels: 0.84"
+[1] "AUC of Keima on 29 of 31 labels: 0.95"
+[1] "AUC of AO-1.77*DMSO on 29 of 31 labels: 0.98"
+[1] "GnamAD lables added"
+
+    lof wt-like 
+     18     609 
+[1] "AUC of AlphaMissense on 627 of 627 labels: 0.83"
+[1] "AUC of popEVE on 604 of 627 labels: 0.84"
+[1] "AUC of Abundance on 620 of 627 labels: 0.65"
+[1] "AUC of AO-DMSO on 620 of 627 labels: 0.92"
+[1] "AUC of AO on 620 of 627 labels: 0.83"
+[1] "AUC of Keima on 620 of 627 labels: 0.90"
+[1] "AUC of AO-1.77*DMSO on 620 of 627 labels: 0.92"
+[1] "Synonymous and nonsense lables added"
+
+    lof wt-like 
+    483    1074 
+[1] "AUC of AO-DMSO on 1501 of 1557 labels: 0.97"
+[1] "AUC of AO on 1501 of 1557 labels: 0.42"
+[1] "AUC of Keima on 1501 of 1557 labels: 0.96"
+[1] "AUC of AO-1.77*DMSO on 1501 of 1557 labels: 0.97"
+quartz 
+     2 
+[1] "Logistic regression of all labels"
+[1] "Activity and abundance optimized to all labels AUC 0.98. lab ~ sigmoid(33.73 + 3.43*(AO + -4.31*DMSO + -0.33*abund )) (logistic regression)"
+
+Call:
+glm(formula = lab ~ ao + dmso + abun, family = binomial, data = prkn)
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  33.7337     3.0514  11.055   <2e-16 ***
+ao            3.4345     0.3770   9.111   <2e-16 ***
+dmso        -14.7902     1.1634 -12.713   <2e-16 ***
+abun         -1.1226     0.5029  -2.232   0.0256 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1485.26  on 1081  degrees of freedom
+Residual deviance:  369.08  on 1078  degrees of freedom
+  (8684 observations deleted due to missingness)
+AIC: 377.08
+
+Number of Fisher Scoring iterations: 7
+
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
+quartz 
+     2 
+[1] "Frequent pathogenic variants"
+       var     gnomad21     gnomad41           clinvar   activity activity_sd act_keima act_keima_sd        abun    abun_sd      rasa     gemme rosetta
+5773 R275W 2.020974e-03 0.0030092638        pathogenic  0.2721722   0.3878347  0.190770    0.2085516 -0.02200332 0.02122298 0.1678832 -3.565962 1.72908
+9013 G430D 8.419383e-05 0.0002239796 likely_pathogenic -0.1826730   0.2511728 -0.431535    0.6192752  1.00150476 0.07296676 0.1634615 -3.588186 0.00000
+     am_score   am_class   peve
+5773   0.8404 pathogenic -3.592
+9013   0.9342 pathogenic -3.672
+[1] "Fraction of unexplained variance 39.4% (ratio of residual to total var) and explained 60.6% (Pearson 0.78 squared). Sum 100.000%"

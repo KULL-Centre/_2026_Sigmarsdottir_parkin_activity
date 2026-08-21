@@ -1,0 +1,104 @@
+[1] "New clinvar (all)"
+
+              VUS            benign          conflict     likely_benign likely_pathogenic        pathogenic 
+               98                 3                11                10                 9                 9 
+[1] "New clinvar (with abundance scores)"
+
+              VUS            benign          conflict     likely_benign likely_pathogenic        pathogenic 
+               98                 3                11                10                 7                 9 
+[1] "Old clinvar (all)"
+
+    benign pathogenic 
+        15         14 
+[1] "Old clinvar (with abundance scores)"
+
+    benign pathogenic 
+        15         12 
+[1] "Loaded gnomAD 4.1 with 773 (27.1%) missense variants"
+[1] "Of these are 10 non-unique variants (at protein level)"
+[1] "gnomad data has 3 transcripts"
+
+ENST00000366892.5 ENST00000366898.6 ENST00000647006.2 
+                3               721                49 
+[1] "    of 3 varinats, only 0 match transcript ENST00000366892.5"
+[1] "    all 721 varinats match for transcript ENST00000366898.6"
+[1] "    of 49 varinats, only 0 match transcript ENST00000647006.2"
+[1] "Use 721 of 773 (93.3%) missense variants from transcript(s): ENST00000366898.6"
+                              Filters...joint
+Source                         AC0 PASS
+  gnomAD Exomes                  0  461
+  gnomAD Exomes,gnomAD Genomes   0  206
+  gnomAD Genomes                 3   51
+[1] "Merged 2 alleles for p.Arg442Ser using AN 1613404.0 and new AF 1.6115e-05"
+    Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+106         p.Arg442Ser              c.1326G>C           25                0       1613404     1.549519e-05
+107         p.Arg442Ser              c.1326G>T            1                0       1613522     6.197622e-07
+[1] "Merged 2 alleles for p.Arg6Ser using AN 1614016.0 and new AF 4.337e-06"
+     Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+2365           p.Arg6Ser                c.18G>C            1                0       1614016     6.195725e-07
+2366           p.Arg6Ser                c.18G>T            6                0       1614016     3.717435e-06
+[1] "Merged 2 alleles for p.Asn295Lys using AN 1613838.0 and new AF 4.9571e-06"
+    Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+976         p.Asn295Lys               c.885C>A            1                0       1613720     6.196862e-07
+977         p.Asn295Lys               c.885C>G            7                0       1613838     4.337486e-06
+[1] "Merged 2 alleles for p.Asp106Glu using AN 1613800.0 and new AF 1.2393e-06"
+     Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+1950         p.Asp106Glu               c.318C>G            1                0       1613800     6.196555e-07
+1951         p.Asp106Glu               c.318C>A            1                0       1613800     6.196555e-07
+[1] "Merged 2 alleles for p.Cys377Ser using AN 1613826.0 and new AF 1.8589e-06"
+    Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+476         p.Cys377Ser              c.1130G>C            1                0       1614034     6.195656e-07
+478         p.Cys377Ser              c.1129T>A            2                0       1613826     1.239291e-06
+[1] "Merged 2 alleles for p.Glu344Asp using AN 1614184.0 and new AF 3.0975e-06"
+    Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+779         p.Glu344Asp              c.1032G>T            4                0       1614184     2.478032e-06
+780         p.Glu344Asp              c.1032G>C            1                0       1614184     6.195081e-07
+[1] "Merged 2 alleles for p.Gly118Arg using AN 1613174.0 and new AF 1.8597e-06"
+     Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+1926         p.Gly118Arg               c.352G>C            2                0       1613174     1.239792e-06
+1927         p.Gly118Arg               c.352G>A            1                0       1613174     6.198959e-07
+[1] "Merged 2 alleles for p.Met458Ile using AN 1613522.0 and new AF 3.0988e-06"
+   Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+70         p.Met458Ile              c.1374G>A            3                0       1613522     1.859287e-06
+71         p.Met458Ile              c.1374G>T            2                0       1613406     1.239614e-06
+[1] "Merged 2 alleles for p.Val148Leu using AN 1613954.0 and new AF 2.4784e-06"
+     Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+1769         p.Val148Leu               c.442G>C            3                0       1613954     1.858789e-06
+1771         p.Val148Leu               c.442G>T            1                0       1613836     6.196416e-07
+[1] "Merged 2 alleles for p.Val380Leu using AN 1612592.0 and new AF 0.16839"
+    Protein.Consequence Transcript.Consequence Allele.Count Homozygote.Count Allele.Number Allele.Frequency
+472         p.Val380Leu              c.1138G>T            1                0       1613658     6.197100e-07
+473         p.Val380Leu              c.1138G>C       271547            24035       1612592     1.683916e-01
+[1] "After merging we have 711 GnomAD 4.1 variants, Clausen24 had 408"
+[1] "New gnomad variants 324: V465G,V465M,D464N,F463I,H461R,H461N,D460E,D460G,D460H,D460N,G459R,C457F,C457R,E452G,E452Q,C451W,C451Y,C449Y,E444K,R442G,Q440H,P439S,Q438P,P437Q,C436R,K435R,M434I,M434K,H433P,H433N,M432K,C431Y,V425M,H422Y,R420L,R420G,P419L,C418S,P417A,T414I,I411T,I411V,K408E,A406T,A405P,A401V,A401P,Q400R,A398P,R396K,A390T,Q389R,T387P,A383G,A383T,E382D,C377S,C377Y,C377G,E376K,A371T,C368G,C368R,F364L,F362L,F362C,G361E,C360Y,G359V,G357D,N356H,G355S,V350I,K349E,R348M,R348K,Q347R,Q347E,D346G,D346H,P345A,P345S,E344D,E344K,L341R,A339T,G336V,R334P,G329V,G329S,G328W,M327I,Q326H,V324L,C323S,E321K,A320T,Y315N,Q311E,G308E,R305S,L301I,E300D,K299E,I298S,I298V,S296F,S296T,C293F,A291D,V290M,C289F,P288S,Y285C,Q282H,Q282R,P281T,D280E,N273D,R271G,T270I,V269E,C268R,Y267C,C263W,L261V,V258G,R256S,S255Y,S255T,N254T,N254D,F251S,V248L,P247R,P247T,R245T,V244L,D243E,D243A,D243V,C241Y,C241R,T240R,T240A,C238Y,T237A,R234L,N232S,A230P,I229M,I229T,L228P,H227Q,A225G,V224I,S223L,T222I,D219A,D219N,T217S,T217I,T217P,H215P,H215R,K211T,K211Q,E207D,P202R,P202L,P202A,H200Q,H200R,P199Q,S198F,Q197R,C196Y,E195K,S193N,R191L,N190K,P189T,I188V,L187F,C182F,C182Y,C182G,P180L,P180A,G179S,G179C,T175S,L174P,Q171R,R170S,C166Y,C166S,Q165R,V164L,G160A,G160R,P159Q,Q158R,V157L,C154F,C154S,P153T,G152V,G152R,C150R,Y149F,V148G,V148M,N144S,N144D,S141P,R140I,R140K,G139V,G139S,A138P,P137S,S136I,S136G,P132R,S131L,S131P,D130N,K129E,S127N,T125A,H124Q,H124Y,V121A,A120T,A120S,V117M,S116C,D115G,G114E,P113S,D106E,R104L,R104P,L102F,L102W,S101R,S101N,P99T,E98A,E96G,G94D,G94A,G93A,G93E,A92E,G85V,G85C,G85S,N81S,M80T,G77S,K76N,R75S,R72G,V70A,V70M,V70L,H68Y,S65R,S65I,Q63H,L61V,D60E,D60V,D60H,D60N,V56A,V56M,W54R,E49D,E49G,K48N,K48R,G47R,I44T,I44N,Q40H,D39V,D39N,P37Q,V36A,V36G,V36D,V36F,V36L,G35A,Q34K,A31G,V30I,E28K,L26V,Q25P,F24I,I23V,S22N,T21S,T21A,E16D,E16A,E16K,P14L,F13C,H11R,S9F,S9Y,S9P,V5L,V3E,V3A,V3G,V3M,V3L,I2L"
+[1] "GnomAD variants from Clausen24 not in GnomAD 4.1 21: D39G,R51W,N52H,Q57E,L107V,S108R,C169S,S181P,K211E,T240K,V258L,L266S,D280Y,C293W,E300Q,I306L,A363T,G375W,A401T,S407P,N454D"
+[1] "Distribution of homozygous counts for 25 pathogenic variants"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.0000  0.0000  0.0000  0.3706  0.3521  3.0303 
+[1] "Pathogenic variants according to gnomad41:"
+     Protein.Consequence   var Allele.Count Homozygote.Count Allele.Frequency Filters...joint              ClinVar.Germline.Classification
+73           p.Met458Leu M458L          284                1     1.760103e-04            PASS Conflicting classifications of pathogenicity
+110          p.Cys441Arg C441R            6                0     3.718145e-06            PASS                 Pathogenic/Likely pathogenic
+118          p.Pro437Leu P437L         4415                9     2.736657e-03            PASS Conflicting classifications of pathogenicity
+137          p.Gly430Asp G430D          361                0     2.239796e-04            PASS                 Pathogenic/Likely pathogenic
+138          p.Gly430Ser G430S            5                0     3.102445e-06            PASS Conflicting classifications of pathogenicity
+280          p.Thr415Asn T415N            5                0     3.097544e-06            PASS                            Likely pathogenic
+300          p.Arg402Cys R402C         2996               12     1.856078e-03            PASS Conflicting classifications of pathogenicity
+802          p.Arg334Cys R334C         1891               36     1.171606e-03            PASS Conflicting classifications of pathogenicity
+1110         p.Gly284Arg G284R            7                0     4.336997e-06            PASS                                   Pathogenic
+1133         p.Arg275Trp R275W         4857               10     3.009264e-03            PASS                 Pathogenic/Likely pathogenic
+1142         p.Leu272Ile L272I          339                2     2.100213e-04            PASS Conflicting classifications of pathogenicity
+1178         p.Arg256Cys R256C          973                1     6.028224e-04            PASS Conflicting classifications of pathogenicity
+1191         p.Cys253Tyr C253Y           11                0     6.814893e-06            PASS                 Pathogenic/Likely pathogenic
+1338         p.Val244Ile V244I           36                0     2.246658e-05            PASS Conflicting classifications of pathogenicity
+1350         p.Thr240Met T240M          442                1     2.744649e-04            PASS Conflicting classifications of pathogenicity
+1352         p.Thr240Arg T240R            1                0     6.209576e-07            PASS                                   Pathogenic
+1421         p.Cys212Tyr C212Y            7                0     4.347459e-06            PASS                                   Pathogenic
+1422         p.Lys211Asn K211N           25                0     1.553138e-05            PASS                 Pathogenic/Likely pathogenic
+2250          p.Val56Glu  V56E           33                1     2.046844e-05            PASS                 Pathogenic/Likely pathogenic
+2280          p.Arg42Pro  R42P           67                0     4.153169e-05            PASS                                   Pathogenic
+2282          p.Arg42His  R42H          294                4     1.822300e-04            PASS Conflicting classifications of pathogenicity
+2298          p.Pro37Leu  P37L          660                2     4.090142e-04            PASS Conflicting classifications of pathogenicity
+2314          p.Arg33Gln  R33Q          248                0     1.536700e-04            PASS                 Pathogenic/Likely pathogenic
+2344          p.Asp18Asn  D18N          171                1     1.059434e-04            PASS Conflicting classifications of pathogenicity
+2371           p.Val3Glu   V3E            1                0     6.196132e-07            PASS                            Likely pathogenic
