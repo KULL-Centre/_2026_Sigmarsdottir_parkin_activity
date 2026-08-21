@@ -13,3 +13,5 @@ Contents
 The final scores are also deposited at [MAVEDB](https://www.mavedb.org/score-sets/urn:mavedb:00001274-a-1) under URN mavedb:00001274
 
 Sequencing reads and raw FACS data are available at [ERDA](https://doi.org/10.17894/ucph.47c662ac-a82b-491e-8f0d-0c46370f8aa6) and also deposited at [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra/PRJNA1359748) under BioProject ID: PRJNA1359748
+
+[![DOI](https://zenodo.org/badge/1128335898.svg)](https://doi.org/10.5281/zenodo.22045810)
