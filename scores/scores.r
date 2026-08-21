@@ -262,7 +262,7 @@ print(raw_psi[i_rm_all,cns])
 ##
 # per library, plot replica PSI distributions, weighted distributions, per-bin average SD and the FACS transformed distributions
 # Map each sorting replica to a FACS distribution that represents the library
-load("facs/facs.rda")      # get facs_events, facs_table, and facs_set
+load("facs.rda")      # get facs_events, facs_table, and facs_set
 
 # select a FACS data set per treatment
 facs_table$rep = NA
@@ -389,6 +389,7 @@ print(sprintf("Calc. fluorescence-normalized activity score min-max normalized t
 # raw_psi$activity_fnorm_sd = activity_fn_sd * scale_fn
 # print(sprintf("Calc. fluorescence-normalized activity score two-point normalized with WT (%.4f) value 1.0 and C431A (%.4f) LTP value %.4f with a scaling of %.4f",
 #               activity_fn[iwt], activity_fn[iC431A], ltp_c431a, scale_fn))
+
 
 print(sprintf("FACS-normalized score uncertainty from %d WT syn %.3f and %d nonsense %.3f",
       sum(! is.na(raw_psi[isyn,"activity_fnorm"])), sd(raw_psi[isyn,"activity_fnorm"], na.rm=T),

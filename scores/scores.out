@@ -1,4 +1,4 @@
-[1] "Input counts file: ../call/counts_prkn_bc.csv"
+[1] "Input counts file: ../counts/counts_prkn_bc.csv"
 [1] "Aggregating read counts for 222899 of 257610 (86.5%) barcodes of single amino acid variants"
 [1] "   using  4806425 of  5470452 (87.9%) read counts for ao_bin1.1"
 [1] "   using  9472129 of 11018473 (86.0%) read counts for ao_bin2.1"
@@ -212,7 +212,7 @@
 [1] "Final score set has 9632 variants, incl. 1 WT, 462 nonsense and 419 synonymous (of 465 residues)"
 [1] ""
 $file
-[1] "../call/counts_prkn_bc.csv"
+[1] "../counts/counts_prkn_bc.csv"
 
 $bio_reps
 $bio_reps$ao
