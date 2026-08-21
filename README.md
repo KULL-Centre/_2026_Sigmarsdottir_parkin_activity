@@ -6,8 +6,9 @@ Scripts and output from "Comprehensive Variant Effect Map of Parkin-Mediated Mit
 Contents
 --------
 * **illumina**: Scripts for calculating the abundance
-* **score**: Scripts and output for making MAVE scores
-* **plots**: 
+* **scores**: Scripts and output for making MAVE scores
+* **annotations**: Scripts and raw source files for other variant data
+* **plots**: Notebooks with plots
 
 The final scores are also deposited at [MAVEDB](https://www.mavedb.org/score-sets/urn:mavedb:00001274-a-1) under URN mavedb:00001274
 
