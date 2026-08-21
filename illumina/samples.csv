@@ -1,0 +1,39 @@
+# Input for match_and_merge.r script by kristoffer.johansson@bio.ku.dk
+# The output will be a data frame per library with a column per row in the samples section; i.e. per selection-replicate pair containting read counts per library member summed for technical replicates
+
+SETTINGS
+# Section to give pairs of options and values
+library_is_barcode,true
+
+LIBRARIES
+# Section to list libraries that samples should be matched to (if any). Include control sequences using the name 'controls'
+# Library name,Library path
+prkn_bc,barcode_map.csv
+
+SAMPLES
+# Section to list sample files. All technical replicates should be given in same row
+# Library name,Selection,Replicate,Description,Raw file 1,Raw file 2,Raw file 3,Raw file 4,Raw file 5,Raw file 6,Raw file 7,Raw file 8,More if needed
+prkn_bc,ao-bin1,1,none,counts/551_S3_L001_counts_all.txt.gz,counts/551_S3_L002_counts_all.txt.gz,counts/551_S3_L003_counts_all.txt.gz,counts/551_S3_L004_counts_all.txt.gz
+prkn_bc,ao-bin2,1,none,counts/552_S4_L001_counts_all.txt.gz,counts/552_S4_L002_counts_all.txt.gz,counts/552_S4_L003_counts_all.txt.gz,counts/552_S4_L004_counts_all.txt.gz
+prkn_bc,ao-bin3,1,none,counts/553_S5_L001_counts_all.txt.gz,counts/553_S5_L002_counts_all.txt.gz,counts/553_S5_L003_counts_all.txt.gz,counts/553_S5_L004_counts_all.txt.gz
+prkn_bc,ao-bin4,1,none,counts/554_S6_L001_counts_all.txt.gz,counts/554_S6_L002_counts_all.txt.gz,counts/554_S6_L003_counts_all.txt.gz,counts/554_S6_L004_counts_all.txt.gz
+prkn_bc,dmso-bin1,1,none,counts/555_S7_L001_counts_all.txt.gz,counts/555_S7_L002_counts_all.txt.gz,counts/555_S7_L003_counts_all.txt.gz,counts/555_S7_L004_counts_all.txt.gz
+prkn_bc,dmso-bin2,1,none,counts/556_S8_L001_counts_all.txt.gz,counts/556_S8_L002_counts_all.txt.gz,counts/556_S8_L003_counts_all.txt.gz,counts/556_S8_L004_counts_all.txt.gz
+prkn_bc,dmso-bin3,1,none,counts/557_S9_L001_counts_all.txt.gz,counts/557_S9_L002_counts_all.txt.gz,counts/557_S9_L003_counts_all.txt.gz,counts/557_S9_L004_counts_all.txt.gz
+prkn_bc,dmso-bin4,1,none,counts/558_S10_L001_counts_all.txt.gz,counts/558_S10_L002_counts_all.txt.gz,counts/558_S10_L003_counts_all.txt.gz,counts/558_S10_L004_counts_all.txt.gz
+prkn_bc,ao-bin1,2,none,counts/561-I_S11_L001_counts_all.txt.gz,counts/561-I_S11_L002_counts_all.txt.gz,counts/561-I_S11_L003_counts_all.txt.gz,counts/561-I_S11_L004_counts_all.txt.gz
+prkn_bc,ao-bin2,2,none,counts/562-I_S12_L001_counts_all.txt.gz,counts/562-I_S12_L002_counts_all.txt.gz,counts/562-I_S12_L003_counts_all.txt.gz,counts/562-I_S12_L004_counts_all.txt.gz
+prkn_bc,ao-bin3,2,none,counts/563-I_S13_L001_counts_all.txt.gz,counts/563-I_S13_L002_counts_all.txt.gz,counts/563-I_S13_L003_counts_all.txt.gz,counts/563-I_S13_L004_counts_all.txt.gz
+prkn_bc,ao-bin4,2,none,counts/564-I_S14_L001_counts_all.txt.gz,counts/564-I_S14_L002_counts_all.txt.gz,counts/564-I_S14_L003_counts_all.txt.gz,counts/564-I_S14_L004_counts_all.txt.gz
+prkn_bc,dmso-bin1,2,none,counts/565-I_S15_L001_counts_all.txt.gz,counts/565-I_S15_L002_counts_all.txt.gz,counts/565-I_S15_L003_counts_all.txt.gz,counts/565-I_S15_L004_counts_all.txt.gz
+prkn_bc,dmso-bin2,2,none,counts/566-I_S16_L001_counts_all.txt.gz,counts/566-I_S16_L002_counts_all.txt.gz,counts/566-I_S16_L003_counts_all.txt.gz,counts/566-I_S16_L004_counts_all.txt.gz
+prkn_bc,dmso-bin3,2,none,counts/567-I_S17_L001_counts_all.txt.gz,counts/567-I_S17_L002_counts_all.txt.gz,counts/567-I_S17_L003_counts_all.txt.gz,counts/567-I_S17_L004_counts_all.txt.gz
+prkn_bc,dmso-bin4,2,none,counts/568-I_S18_L001_counts_all.txt.gz,counts/568-I_S18_L002_counts_all.txt.gz,counts/568-I_S18_L003_counts_all.txt.gz,counts/568-I_S18_L004_counts_all.txt.gz
+prkn_bc,ao-bin1,3,none,counts/561-II_S19_L001_counts_all.txt.gz,counts/561-II_S19_L002_counts_all.txt.gz,counts/561-II_S19_L003_counts_all.txt.gz,counts/561-II_S19_L004_counts_all.txt.gz
+prkn_bc,ao-bin2,3,none,counts/562-II_S20_L001_counts_all.txt.gz,counts/562-II_S20_L002_counts_all.txt.gz,counts/562-II_S20_L003_counts_all.txt.gz,counts/562-II_S20_L004_counts_all.txt.gz
+prkn_bc,ao-bin3,3,none,counts/563-II_S21_L001_counts_all.txt.gz,counts/563-II_S21_L002_counts_all.txt.gz,counts/563-II_S21_L003_counts_all.txt.gz,counts/563-II_S21_L004_counts_all.txt.gz
+prkn_bc,ao-bin4,3,none,counts/564-II_S22_L001_counts_all.txt.gz,counts/564-II_S22_L002_counts_all.txt.gz,counts/564-II_S22_L003_counts_all.txt.gz,counts/564-II_S22_L004_counts_all.txt.gz
+prkn_bc,dmso-bin1,3,none,counts/565-II_S23_L001_counts_all.txt.gz,counts/565-II_S23_L002_counts_all.txt.gz,counts/565-II_S23_L003_counts_all.txt.gz,counts/565-II_S23_L004_counts_all.txt.gz
+prkn_bc,dmso-bin2,3,none,counts/566-II_S24_L001_counts_all.txt.gz,counts/566-II_S24_L002_counts_all.txt.gz,counts/566-II_S24_L003_counts_all.txt.gz,counts/566-II_S24_L004_counts_all.txt.gz
+prkn_bc,dmso-bin3,3,none,counts/567-II_S25_L001_counts_all.txt.gz,counts/567-II_S25_L002_counts_all.txt.gz,counts/567-II_S25_L003_counts_all.txt.gz,counts/567-II_S25_L004_counts_all.txt.gz
+prkn_bc,dmso-bin4,3,none,counts/568-II_S26_L001_counts_all.txt.gz,counts/568-II_S26_L002_counts_all.txt.gz,counts/568-II_S26_L003_counts_all.txt.gz,counts/568-II_S26_L004_counts_all.txt.gz
