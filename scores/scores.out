@@ -1,0 +1,247 @@
+[1] "Input counts file: ../call/counts_prkn_bc.csv"
+[1] "Aggregating read counts for 222899 of 257610 (86.5%) barcodes of single amino acid variants"
+[1] "   using  4806425 of  5470452 (87.9%) read counts for ao_bin1.1"
+[1] "   using  9472129 of 11018473 (86.0%) read counts for ao_bin2.1"
+[1] "   using 13886761 of 16173757 (85.9%) read counts for ao_bin3.1"
+[1] "   using  6116817 of  7058774 (86.7%) read counts for ao_bin4.1"
+[1] "   using  5248176 of  5911278 (88.8%) read counts for ao_bin1.2"
+[1] "   using  9386740 of 10917732 (86.0%) read counts for ao_bin2.2"
+[1] "   using 11416059 of 13366317 (85.4%) read counts for ao_bin3.2"
+[1] "   using  6340730 of  7317861 (86.6%) read counts for ao_bin4.2"
+[1] "   using  4462552 of  5075949 (87.9%) read counts for ao_bin1.3"
+[1] "   using 12519490 of 14509215 (86.3%) read counts for ao_bin2.3"
+[1] "   using 12019476 of 14022151 (85.7%) read counts for ao_bin3.3"
+[1] "   using  6544751 of  7546886 (86.7%) read counts for ao_bin4.3"
+[1] "   using  5535691 of  6515798 (85.0%) read counts for dmso_bin1.1"
+[1] "   using  9664358 of 11263264 (85.8%) read counts for dmso_bin2.1"
+[1] "   using 12709932 of 14595237 (87.1%) read counts for dmso_bin3.1"
+[1] "   using  7449866 of  8534279 (87.3%) read counts for dmso_bin4.1"
+[1] "   using  4468689 of  5237889 (85.3%) read counts for dmso_bin1.2"
+[1] "   using 11107625 of 12935007 (85.9%) read counts for dmso_bin2.2"
+[1] "   using 12007247 of 13806208 (87.0%) read counts for dmso_bin3.2"
+[1] "   using  7013875 of  8023940 (87.4%) read counts for dmso_bin4.2"
+[1] "   using  4229788 of  4942358 (85.6%) read counts for dmso_bin1.3"
+[1] "   using 10418949 of 12139428 (85.8%) read counts for dmso_bin2.3"
+[1] "   using 11827507 of 13611230 (86.9%) read counts for dmso_bin3.3"
+[1] "   using  5817208 of  6657267 (87.4%) read counts for dmso_bin4.3"
+[1] "Aggregating read counts for 10122 of 257610 (3.9%) barcodes of single nucl synonymous wild types"
+[1] "   using   182581 of  5470452 (3.3%) read counts for ao_bin1.1"
+[1] "   using   455201 of 11018473 (4.1%) read counts for ao_bin2.1"
+[1] "   using   685765 of 16173757 (4.2%) read counts for ao_bin3.1"
+[1] "   using   277176 of  7058774 (3.9%) read counts for ao_bin4.1"
+[1] "   using   174025 of  5911278 (2.9%) read counts for ao_bin1.2"
+[1] "   using   454597 of 10917732 (4.2%) read counts for ao_bin2.2"
+[1] "   using   590828 of 13366317 (4.4%) read counts for ao_bin3.2"
+[1] "   using   279564 of  7317861 (3.8%) read counts for ao_bin4.2"
+[1] "   using   169716 of  5075949 (3.3%) read counts for ao_bin1.3"
+[1] "   using   579861 of 14509215 (4.0%) read counts for ao_bin2.3"
+[1] "   using   610158 of 14022151 (4.4%) read counts for ao_bin3.3"
+[1] "   using   290468 of  7546886 (3.8%) read counts for ao_bin4.3"
+[1] "   using   307072 of  6515798 (4.7%) read counts for dmso_bin1.1"
+[1] "   using   491886 of 11263264 (4.4%) read counts for dmso_bin2.1"
+[1] "   using   534094 of 14595237 (3.7%) read counts for dmso_bin3.1"
+[1] "   using   294840 of  8534279 (3.5%) read counts for dmso_bin4.1"
+[1] "   using   233296 of  5237889 (4.5%) read counts for dmso_bin1.2"
+[1] "   using   549658 of 12935007 (4.2%) read counts for dmso_bin2.2"
+[1] "   using   520392 of 13806208 (3.8%) read counts for dmso_bin3.2"
+[1] "   using   274728 of  8023940 (3.4%) read counts for dmso_bin4.2"
+[1] "   using   222449 of  4942358 (4.5%) read counts for dmso_bin1.3"
+[1] "   using   528660 of 12139428 (4.4%) read counts for dmso_bin2.3"
+[1] "   using   518784 of 13611230 (3.8%) read counts for dmso_bin3.3"
+[1] "   using   235119 of  6657267 (3.5%) read counts for dmso_bin4.3"
+[1] "Aggregating read counts for 15974 of 257610 (6.2%) barcodes of wild type (DNA level)"
+[1] "   using   282070 of  5470452 (5.2%) read counts for ao_bin1.1"
+[1] "   using   732775 of 11018473 (6.7%) read counts for ao_bin2.1"
+[1] "   using  1119034 of 16173757 (6.9%) read counts for ao_bin3.1"
+[1] "   using   439920 of  7058774 (6.2%) read counts for ao_bin4.1"
+[1] "   using   267331 of  5911278 (4.5%) read counts for ao_bin1.2"
+[1] "   using   722536 of 10917732 (6.6%) read counts for ao_bin2.2"
+[1] "   using   964671 of 13366317 (7.2%) read counts for ao_bin3.2"
+[1] "   using   456229 of  7317861 (6.2%) read counts for ao_bin4.2"
+[1] "   using   275602 of  5075949 (5.4%) read counts for ao_bin1.3"
+[1] "   using   930113 of 14509215 (6.4%) read counts for ao_bin2.3"
+[1] "   using   972700 of 14022151 (6.9%) read counts for ao_bin3.3"
+[1] "   using   472810 of  7546886 (6.3%) read counts for ao_bin4.3"
+[1] "   using   492748 of  6515798 (7.6%) read counts for dmso_bin1.1"
+[1] "   using   771982 of 11263264 (6.9%) read counts for dmso_bin2.1"
+[1] "   using   855687 of 14595237 (5.9%) read counts for dmso_bin3.1"
+[1] "   using   467857 of  8534279 (5.5%) read counts for dmso_bin4.1"
+[1] "   using   387087 of  5237889 (7.4%) read counts for dmso_bin1.2"
+[1] "   using   897789 of 12935007 (6.9%) read counts for dmso_bin2.2"
+[1] "   using   831114 of 13806208 (6.0%) read counts for dmso_bin3.2"
+[1] "   using   439499 of  8023940 (5.5%) read counts for dmso_bin4.2"
+[1] "   using   348586 of  4942358 (7.1%) read counts for dmso_bin1.3"
+[1] "   using   835245 of 12139428 (6.9%) read counts for dmso_bin2.3"
+[1] "   using   814318 of 13611230 (6.0%) read counts for dmso_bin3.3"
+[1] "   using   352291 of  6657267 (5.3%) read counts for dmso_bin4.3"
+[1] "Collected data for 9642 substitutions using 248995 barcodes (96.7%)"
+[1] "Calculate PSI for ao_1"
+[1] "    Calc. PSI for ao_1 using indices 1,2,3,4 and populations 0.15,0.3,0.35,0.2"
+[1] "    Removing 8 PSI scores with less than 50 total reads"
+     ao_1_read_sum ao_1_psi
+877              0 2.484415
+5733            20 3.763561
+6387            41 3.395460
+6697            37 1.138368
+8748            11 2.693235
+8787            14 2.104321
+9281             7 2.171672
+9529             0 2.484415
+[1] "Calculate PSI for ao_2"
+[1] "    Calc. PSI for ao_2 using indices 1,2,3,4 and populations 0.15,0.3,0.35,0.2"
+[1] "    Removing 12 PSI scores with less than 50 total reads"
+     ao_2_read_sum ao_2_psi
+877              0 2.519579
+2272            30 2.059404
+2789            28 2.063131
+4980             0 2.519579
+5731             0 2.519579
+5744            45 2.041171
+6387             0 2.519579
+6697            35 2.051763
+8748            15 2.262649
+9228             0 2.519579
+9281            44 3.859584
+9529            10 2.860901
+[1] "Calculate PSI for ao_3"
+[1] "    Calc. PSI for ao_3 using indices 1,2,3,4 and populations 0.15,0.3,0.35,0.2"
+[1] "    Removing 13 PSI scores with less than 50 total reads"
+     ao_3_read_sum ao_3_psi
+3                0 2.475349
+877              0 2.475349
+1239            16 1.261039
+2264             0 2.475349
+2777             0 2.475349
+3182            47 2.370877
+4980            43 2.918642
+6387            12 2.138018
+6697             0 2.475349
+8748             2 2.497273
+8787             0 2.475349
+9281             0 2.475349
+9326            19 1.226140
+[1] "Calculate PSI for dmso_1"
+[1] "    Calc. PSI for dmso_1 using indices 1,2,3,4 and populations 0.15,0.3,0.35,0.2"
+[1] "    Removing 8 PSI scores with less than 50 total reads"
+     dmso_1_read_sum dmso_1_psi
+877                0   2.497163
+2264              44   1.946909
+6697              22   1.756622
+8748               4   1.770252
+9228              45   1.128877
+9281               1   2.211363
+9338              39   3.273503
+9385              43   2.956822
+[1] "Calculate PSI for dmso_2"
+[1] "    Calc. PSI for dmso_2 using indices 1,2,3,4 and populations 0.15,0.3,0.35,0.2"
+[1] "    Removing 14 PSI scores with less than 50 total reads"
+     dmso_2_read_sum dmso_2_psi
+877                0   2.460072
+3182               0   2.460072
+5733               0   2.460072
+6387              49   2.959035
+6656               0   2.460072
+6697               5   2.759271
+6824               0   2.460072
+8748               6   1.831297
+8754               4   2.729265
+9225              30   2.936158
+9281               0   2.460072
+9326              49   2.959035
+9327              31   2.911720
+9529               0   2.460072
+[1] "Calculate PSI for dmso_3"
+[1] "    Calc. PSI for dmso_3 using indices 1,2,3,4 and populations 0.15,0.3,0.35,0.2"
+[1] "    Removing 11 PSI scores with less than 50 total reads"
+     dmso_3_read_sum dmso_3_psi
+243               15   1.295704
+877                0   2.504943
+915               49   2.631449
+3182              41   2.399630
+4546               5   2.770990
+5744              11   2.860775
+6387               9   2.839845
+8748               3   2.302857
+9225               5   3.367320
+9281               0   2.504943
+9529              39   3.871468
+[1] "Replicate distribution for ao scores"
+
+   0    1    2    3 
+   5    3   12 9622 
+[1] "Removing 8 mean PSI scores with less than 2 measurements"
+[1] "Replicate distribution for dmso scores"
+
+   0    1    2    3 
+   3    5   14 9620 
+[1] "Removing 8 mean PSI scores with less than 2 measurements"
+[1] "All 10 removed measurements"
+     subst ao_1_read_sum ao_1_psi ao_2_read_sum ao_2_psi ao_3_read_sum ao_3_psi dmso_1_read_sum dmso_1_psi dmso_2_read_sum dmso_2_psi dmso_3_read_sum
+877   F45S             0       NA             0       NA             0       NA               0         NA               0         NA               0
+3182 K161L            75 1.464024           136 1.750708            47       NA             253   2.695970               0         NA              41
+4980 F251Q            79 2.148773             0       NA            43       NA             156   2.766220             162   2.716024             160
+6387 E322C            41       NA             0       NA            12       NA              58   2.029459              49         NA               9
+6697 C337S            37       NA            35       NA             0       NA              22         NA               5         NA              59
+8748 R442H            11       NA            15       NA             2       NA               4         NA               6         NA               3
+8787 E444H            14       NA            61 3.837020             0       NA             167   2.809878             150   3.159317             144
+9225   R6=           243 3.299931           109 2.475128           312 3.552713              99   3.557586              30         NA               5
+9281  S65=             7       NA            44       NA             0       NA               1         NA               0         NA               0
+9529 G338=             0       NA            10       NA           156 3.698320              75   2.916383               0         NA              39
+     dmso_3_psi  ao_mean     ao_sd dmso_mean   dmso_sd ao_rep dmso_rep
+877          NA       NA        NA        NA        NA      0        0
+3182         NA 1.607366 0.2027158        NA        NA      2        1
+4980   1.861319       NA        NA  2.447855 0.5085741      1        3
+6387         NA       NA        NA        NA        NA      0        1
+6697   3.884744       NA        NA        NA        NA      0        1
+8748         NA       NA        NA        NA        NA      0        0
+8787   2.947039       NA        NA  2.972078 0.1760602      1        3
+9225         NA 3.109257 0.5635285        NA        NA      3        1
+9281         NA       NA        NA        NA        NA      0        0
+9529         NA       NA        NA        NA        NA      1        1
+[1] "Calc. activity score using a DMSO factor of 1.7707 and min-max normalized to WT (-1.7755) and C431A (-2.8733) with a scaling of 0.9109"
+[1] "Activity score uncertainty from 419 WT syn 0.181 and 462 nonsense 0.228"
+[1] "Summary of 9632 (98.6% incl. *=) score std. dev. (signal=1)"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.01884 0.16090 0.22173 0.24992 0.30630 1.91426      10 
+[1] "Calc. fluorescence-normalized activity score min-max normalized to WT (0.2617) and C431A (-0.1076) with a scaling of 2.7081"
+[1] "FACS-normalized score uncertainty from 419 WT syn 0.317 and 462 nonsense 0.466"
+[1] "Summary of 9632 (98.6% incl. *=) FACS-normalized score std. dev. (signal=1)"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.02332 0.23391 0.35371 0.41887 0.52394 4.36442      10 
+[1] "Data has 0 activity measurements,  8750 of 8835 (99.0%) single variants"
+[1] "Final score set has 9632 variants, incl. 1 WT, 462 nonsense and 419 synonymous (of 465 residues)"
+[1] ""
+$file
+[1] "../call/counts_prkn_bc.csv"
+
+$bio_reps
+$bio_reps$ao
+[1] "1" "2" "3"
+
+$bio_reps$dmso
+[1] "1" "2" "3"
+
+
+$n_facs_bins
+[1] 4
+
+$idx_facs_bins
+[1] 1 2 3 4
+
+$pop_facs_bins
+$pop_facs_bins$ao
+[1] 0.15 0.30 0.35 0.20
+
+$pop_facs_bins$dmso
+[1] 0.15 0.30 0.35 0.20
+
+
+$threshold_counts_per_rep
+[1] 50
+
+$min_rep
+[1] 2
+
+$pseudocounts
+[1] 1
+
